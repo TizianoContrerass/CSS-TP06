@@ -1,0 +1,71 @@
+/* ARCHIVO DE ESTILOS */
+body {
+    background-color: rgb(255, 35, 101); /* cambia color de fondo pagina*/
+    color: #445566;
+    text-align: center;
+    margin: 0; 
+    /* eliminamso el margen natural del elemento */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    /*cambia el tipo de fuente*/
+}
+/*encabezado*/
+header {
+    background-color: #583f99;
+    color: #fff;
+    padding: 20px;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 2.5em;/* metrica em*/
+}
+nav ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    border: 1px solid rgb(255, 35, 101);
+    padding: 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+/*MAIN*/
+main {
+    padding: 20px;
+}
+section {
+    background-color: beige;
+    border: 1px solid #005512;
+    margin: 3px 2px; /* top-bottom   left- right*/
+    text-align: left;
+}
+
+main section h2 {
+    margin-left: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.imagen {
+    margin: 10px;
+}
+/* footer */
+footer {
+    background-color: beige;
+    
+}
+footer ul {
+    margin: 0px;
+    list-style: none;
+}
+footer ul li {
+    display: inline-block;
+}
+.iconos {
+    width: 30px ;
+    margin-left: 5px;
+}
