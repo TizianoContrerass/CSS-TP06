@@ -1,7 +1,7 @@
 /* ARCHIVO DE ESTILOS */
 body {
     background-color: rgb(255, 35, 101); /* cambia color de fondo pagina*/
-    color: #445566;
+    color:goldenrod;
     text-align: center;
     margin: 0; 
     /* eliminamso el margen natural del elemento */
@@ -25,7 +25,7 @@ nav ul {
 }
 nav ul li {
     display: inline-block;
-    border: 1px solid rgb(255, 35, 101);
+    border: 1px solid color green;
     padding: 10px;
 }
 nav ul li a {
@@ -49,6 +49,7 @@ main section h2 {
 .container {
     display: flex;
     flex-direction: row;
+
 }
 .imagen {
     margin: 10px;
@@ -69,3 +70,7 @@ footer ul li {
     width: 30px ;
     margin-left: 5px;
 }
+section h2 div div{
+    margin: 10px 2px;
+}
+
